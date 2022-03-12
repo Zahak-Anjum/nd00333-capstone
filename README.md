@@ -26,7 +26,7 @@ I create two models in the environment of Azure Machine Learning Studio
 The two models are then compare the performance of both models and deploy the best performing model as a service using Azure Container Instances (ACI).
 model workflow.PNG
 
-![Project Workflow](https://github.com/Zahak-Anjum/nd00333-capstone/blob/master/model%20workflow.PNG)
+![Project Workflow](https://github.com/Zahak-Anjum/nd00333-capstone/blob/master/workflow%20capstone.PNG)
 
 ## Project Set Up and Installation
 In order to run the project in Azure Machine Learning Studio, we will need the two Jupyter Notebooks:
