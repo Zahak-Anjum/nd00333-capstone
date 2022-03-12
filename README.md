@@ -13,6 +13,7 @@
    * [Stand out suggestions](#Comments-and-standout-improvements)
    * [References](#References)
 
+Note: All the files necassary to run this project are present in nd00333-capstone-master.rar in zipped version. To reproduce the results you can download the whole folder.
 ***
 
 ### Overview
