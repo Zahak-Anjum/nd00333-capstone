@@ -70,7 +70,7 @@ The main task that I seek to solve with this project & dataset is to classify pa
 First, I made the data publicly accessible in the my GitHub repository. It is availabel under the link: https://github.com/Zahak-Anjum/nd00333-capstone/blob/master/heart_failure_clinical_records_dataset.csv
 
 ## Automated ML
-Below are the training configurations and settings used for the model to train via "Automl" run.
+The automl.ipynb file is present in the starter_file folder. Below are the training configurations and settings used for the model to train via "Automl" run in automl.ipynb file.
 
 ```
 automl_settings = {"n_cross_validations": 2,
@@ -120,7 +120,7 @@ Also you can see in the screenshot below of Azure ML studio that the best model 
 
 
 ## Hyperparameter Tuning
-For this experiment I used a custom Scikit-learn Logistic Regression model, whose hyperparameters I am optimising using HyperDrive. Logistic regression is best suited for binary classification models like this one and this is the main reason to run Logistic Regression.
+The hyperparameter_tuning file is present in the starter_file folder. For this experiment I used a custom Scikit-learn Logistic Regression model, whose hyperparameters I am optimising using HyperDrive. Logistic regression is best suited for binary classification models like this one and this is the main reason to run Logistic Regression.
 
 I specify the parameter sampler using the parameters C and max_iter and chose discrete values with choice for both parameters.
 
